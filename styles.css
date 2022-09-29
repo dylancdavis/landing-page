@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto';
+    margin: 0px;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header, .footer, .content-box {
+    padding: 0 5vw 0 5vw;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.banner-links {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-container {
+    display: flex;
+    padding: 64px;
+    gap: 48px;
+}
+
+.hero-container > * {
+    flex: 1;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 1000;
+    line-height: 1;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    border: 0px solid black;
+    margin-bottom: 4px;;
+}
+
+.hero-button    {
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-weight: 550;
+    border: 0px solid #3882f6;
+    border-radius: 4px;
+    padding: 4px 20px;
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+}
+
+/* Content Styling */
+
+.info-container {
+    padding: 43px;
+}
+
+.information {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 24px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    text-align: center;
+    color: gray;
+}
+
+.info-box {
+    width: 150px;
+}
+
+.roundbox {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 64px 20vw;
+    gap: 8px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.action-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.action-box {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    border-radius: 4px;
+    padding: 32px 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action-button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 4px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
